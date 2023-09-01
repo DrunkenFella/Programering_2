@@ -18,5 +18,9 @@ public class Gubbe
         hp = maxHp;
     }
 
+    public void Injure(float dmg)
+    {
+    }
+
 
 }
