@@ -20,6 +20,7 @@ public class Gubbe
 
     public void Injure(float dmg)
     {
+        
     }
 
 
