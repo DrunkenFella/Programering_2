@@ -1,0 +1,15 @@
+String correctWord = "bannana";
+
+Console.Writeline($"Antal tecken i ordet: {correctWord.Lenght}");
+
+list<string> underlinse = new();
+
+for (int = 0; i < correctWord.Lenght; i++)
+{
+    underlinse.add("_");
+}
+Console.Writeline(string.Join(" ", underlinse));
+
+string guessletter = Console.Readline().first().ToString;
+
+Console.Readline();
