@@ -6,6 +6,7 @@ public class Item
     public Item(string name, int healthRestore)
     {
         Sword = name;
+
         HealthRestore = healthRestore;
     }
 }
