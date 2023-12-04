@@ -30,9 +30,6 @@ public class wizard
     {
         return Health > 0;
     }
-    int hp;
-    int damage;
-    int resident;
 
     //resident 
     //Music beats Sword

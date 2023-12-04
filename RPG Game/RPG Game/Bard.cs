@@ -22,7 +22,7 @@ public class bard
     public void UseItem(Item item)
     {
         int healthRandom = new Random().Next(5, 25);
-        Console.WriteLine($"Brad The Bard  uses {item.Sword} and restores {healthRandom} health.");
+        Console.WriteLine($"Brad The Bard  uses {item.Lute} and restores {healthRandom} health.");
         Health += healthRandom;
     }
 

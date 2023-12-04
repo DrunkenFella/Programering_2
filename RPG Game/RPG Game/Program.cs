@@ -4,11 +4,24 @@ while (restart)
 {
     Console.WriteLine("What do you want to play as? Knight = 1, Wizard = 2, Bard = 3");
     String class = Console.ReadLine();
-    
+    if (class = 1)
+    {
+    Player player = new Knight(1, 100);
+    }
+    else if (class = 2)
+    {
+        Player player = new Wizard(1, 100);
+    }
+    else if (class = 3)
+    {
+        Player player = new Bard(1, 100);
+    }
+    else 
+    {
+        Console.WriteLine("Invalid, try again");
+        Console.ReadLine();
+    }
 
-    Console.WriteLine("Enter your character's name: ");
-    string playerName = Console.ReadLine();
-    player player = new player(1, 100);
     Console.WriteLine("Enter your enemy's name: ");
     string enemyName = Console.ReadLine();
     enemy enemy = new enemy(enemyName, 100);
