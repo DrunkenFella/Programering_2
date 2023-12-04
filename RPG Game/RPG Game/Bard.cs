@@ -6,13 +6,13 @@ public class bard
     public string Name { get; set; }
     public int Health { get; set; }
 
-    public bard(string name, int health)
+    public bard(string Brad_The_Bard, int health)
     {
-        Name = name;
+        Name = Brad_The_Bard;
         Health = health;
     }
 
-    public void Attack(Enemy target)
+    public void Attack(enemy target)
     {
         int damage = new Random().Next(20, 40);
         Console.WriteLine($"Brad The Bard attacks {target.Name} for {damage} damage.");
@@ -22,7 +22,7 @@ public class bard
     public void UseItem(Item item)
     {
         int healthRandom = new Random().Next(5, 25);
-        Console.WriteLine($"Brad The Bard uses {item.Lute} and restores {healthRandom} health.");
+        Console.WriteLine($"Brad The Bard  uses {item.Sword} and restores {healthRandom} health.");
         Health += healthRandom;
     }
 

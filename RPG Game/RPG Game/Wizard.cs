@@ -6,13 +6,13 @@ public class wizard
     public string Name { get; set; }
     public int Health { get; set; }
 
-    public wizard(string name, int health)
+    public wizard(string Winston_The_Wizard, int health)
     {
-        Name = name;
+        Name = Winston_The_Wizard;
         Health = health;
     }
 
-    public void Attack(Enemy target)
+    public void Attack(enemy target)
     {
         int damage = new Random().Next(20, 40);
         Console.WriteLine($"Winston The Wizard attacks {target.Name} for {damage} damage.");

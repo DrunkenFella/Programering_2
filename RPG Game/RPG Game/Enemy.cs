@@ -1,8 +1,8 @@
 using System.Runtime.CompilerServices;
 
-public class Enemy
+public class enemy
 {
-    public class Sir_Dorkalot_The_Dimwit
+    public class Sir_Dorkalot_The_Dimwit : enemy
     {
         public string Name { get; set; }
         public int Health { get; set; }
@@ -23,7 +23,7 @@ public class Enemy
         public void EnemyUseItem(Item item)
         {
             int healthRandom = new Random().Next(5, 25);
-            Console.WriteLine($"Sir Dorkalot The Dimwit uses {item.Sword} and restores {healthRandom} health.");
+            Console.WriteLine($"{Name} uses {item.Sword} and restores {healthRandom} health.");
             Health += healthRandom;
         }
 
@@ -38,7 +38,7 @@ public class Enemy
 
     }
 
-    public class Sir_Withy_The_Itchy_The_Twitchy
+    public class Sir_Withy_The_Itchy_The_Twitchy : enemy
     {
         public string Name { get; set; }
 

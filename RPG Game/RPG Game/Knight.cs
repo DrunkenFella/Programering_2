@@ -6,13 +6,13 @@ public class Knight : Player
         public string Name { get; set; }
         public int Health { get; set; }
 
-        public knight(string name, int health)
+        public knight(string Kent_The_Knight, int health)
         {
-            Name = name;
+            Name = Kent_The_Knight;
             Health = health;
         }
 
-        public void Attack(Enemy target)
+        public void Attack(enemy target)
         {
             int damage = new Random().Next(20, 40);
             Console.WriteLine($"Kent The Knight attacks {target.Name} for {damage} damage.");
