@@ -1,4 +1,4 @@
-public class Wizard : Player
+public class Wizard : Character
 {
 
 }

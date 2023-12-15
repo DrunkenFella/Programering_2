@@ -1,6 +1,7 @@
-public class Player
+public class Character
 {
-    
+    //attack
+    //defence
 }
 
 //Winston The Wizard

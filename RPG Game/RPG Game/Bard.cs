@@ -1,4 +1,4 @@
-public class Bard : Player
+public class Bard : Character
 {
 
 }

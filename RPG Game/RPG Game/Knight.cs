@@ -1,4 +1,4 @@
-public class Knight : Player
+public class Knight : Character
 {
-
+    
 }
