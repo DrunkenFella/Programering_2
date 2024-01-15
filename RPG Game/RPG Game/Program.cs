@@ -8,7 +8,7 @@
 
             //Enemies
             List<Character> enemies = new List<Character>
-            {
+            { 
                 new Enemy("SirDorkalotTheDimwit", 50, 15),
                 new Enemy("SirWithyTheItchyTheTwitchy", 60, 20),
                 new Enemy("Steffan", 40, 10)
