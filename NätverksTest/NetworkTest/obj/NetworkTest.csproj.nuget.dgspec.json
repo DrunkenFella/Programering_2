@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alex.ostlund\\Programering_2\\NätverksTest\\NetworkTest\\NetworkTest.csproj": {}
+    "c:\\Users\\alex.ostlund\\Programering_2\\NätverksTest\\NetworkTest\\NetworkTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alex.ostlund\\Programering_2\\NätverksTest\\NetworkTest\\NetworkTest.csproj": {
+    "c:\\Users\\alex.ostlund\\Programering_2\\NätverksTest\\NetworkTest\\NetworkTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alex.ostlund\\Programering_2\\NätverksTest\\NetworkTest\\NetworkTest.csproj",
+        "projectUniqueName": "c:\\Users\\alex.ostlund\\Programering_2\\NätverksTest\\NetworkTest\\NetworkTest.csproj",
         "projectName": "NetworkTest",
-        "projectPath": "C:\\Users\\alex.ostlund\\Programering_2\\NätverksTest\\NetworkTest\\NetworkTest.csproj",
+        "projectPath": "c:\\Users\\alex.ostlund\\Programering_2\\NätverksTest\\NetworkTest\\NetworkTest.csproj",
         "packagesPath": "C:\\Users\\alex.ostlund\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alex.ostlund\\Programering_2\\NätverksTest\\NetworkTest\\obj\\",
+        "outputPath": "c:\\Users\\alex.ostlund\\Programering_2\\NätverksTest\\NetworkTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
