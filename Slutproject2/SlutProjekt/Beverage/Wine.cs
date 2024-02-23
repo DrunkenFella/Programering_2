@@ -1,6 +1,6 @@
 ﻿namespace SlutProjekt;
 
-public class Wine
+public class Wine : Alcohol
 {
 
 }
