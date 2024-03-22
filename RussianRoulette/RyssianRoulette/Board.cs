@@ -1,8 +1,10 @@
 ﻿namespace RyssianRoulette;
+using Raylib_cs;
 
 class Board
 {
     private char[,] grid;
+    // char stores information
 
     public Board()
     {
