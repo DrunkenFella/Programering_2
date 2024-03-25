@@ -1,6 +1,9 @@
 ﻿namespace RyssianRoulette;
 using Raylib_cs;
 
+
+// Jag har inte skrivit så mycket av den här koden själv på Board
+// Det är "char" som jag fick hjälp med att skriva och förstå
 class Board
 {
     private char[,] grid;
