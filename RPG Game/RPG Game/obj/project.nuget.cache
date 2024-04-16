@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QAsXsg77cL95XK1te3b86UjSHxo1D2/v6lPgBpE1tliq2Gv3cyKjOm6HmWUG2HE7pU3vLohYk64y3lzQ6jz8pg==",
+  "dgSpecHash": "V2TwTZaN0Nuv7BNMKcGD7l/+As5rvd8bKsrACXauPjSeJnxImRupidvFYVD23i8vXLfxd2RO5ZkL+PTM4u9Low==",
   "success": true,
   "projectFilePath": "C:\\Users\\alex.ostlund\\Programering_2\\RPG Game\\RPG Game\\RPG Game.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\alex.ostlund\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.26\\microsoft.netcore.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\alex.ostlund\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.26\\microsoft.windowsdesktop.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\alex.ostlund\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.26\\microsoft.aspnetcore.app.ref.6.0.26.nupkg.sha512",
-    "C:\\Users\\alex.ostlund\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.26\\microsoft.netcore.app.host.win-x64.6.0.26.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
